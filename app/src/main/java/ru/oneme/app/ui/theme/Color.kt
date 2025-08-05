@@ -1,4 +1,4 @@
-package com.fakemax.fakemax.ui.theme
+package ru.oneme.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

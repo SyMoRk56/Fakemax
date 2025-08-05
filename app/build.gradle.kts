@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fakemax.fakemax"
+    namespace = "ru.oneme.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.fakemax.fakemax"
+        applicationId = "ru.oneme.app"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

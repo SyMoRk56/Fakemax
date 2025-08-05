@@ -1,4 +1,4 @@
-package com.fakemax.fakemax
+package ru.oneme.app
 
 import org.junit.Test
 

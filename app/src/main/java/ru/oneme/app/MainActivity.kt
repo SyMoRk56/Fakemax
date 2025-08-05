@@ -1,7 +1,6 @@
-package com.fakemax.fakemax
+package ru.oneme.app
 
 import android.content.Intent
-import android.net.Uri
 import android.net.Uri.*
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,7 +13,7 @@ class MainActivity : ComponentActivity() {
         val intent = Intent()
         val telegram = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://t.me/")
+            parse("https://t.me/")
         ) //where 1111111111 - telegram userId
         telegram.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         telegram.setPackage("org.telegram.messenger")

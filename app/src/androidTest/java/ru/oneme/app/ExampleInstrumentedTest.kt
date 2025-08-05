@@ -1,4 +1,4 @@
-package com.fakemax.fakemax
+package ru.oneme.app
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
